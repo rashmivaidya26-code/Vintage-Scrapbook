@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Little Memory Book</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="grain"></div>
+
+  <header class="topbar">
+    <div class="brand">THE MEMORY ARCHIVE</div>
+    <div class="date-label">EST. THE DAY WE MET</div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p class="eyebrow">A COLLECTION OF LITTLE MOMENTS</p>
+      <h1>Our Little<br><em>Memory Book</em></h1>
+      <p class="intro-text">
+        Some people become a beautiful chapter in our story.
+        This one is dedicated to you.
+      </p>
+      <a href="#book" class="start-link">OPEN THE SCRAPBOOK ↓</a>
+    </section>
+
+    <section class="book-section" id="book">
+      <div class="section-label">VOLUME 01 — OUR FRIENDSHIP</div>
+
+      <div class="book">
+        <div class="book-spine"></div>
+
+        <article class="page active" data-page="0">
+          <div class="page-number">01</div>
+          <div class="cover-content">
+            <div class="cover-stamp">PERSONAL<br>ARCHIVE</div>
+            <p class="cover-small">A BOOK OF</p>
+            <h2>Unforgettable<br><em>Days</em></h2>
+            <div class="cover-line"></div>
+            <p class="cover-note">Collected memories, little laughs<br>and a forever friendship.</p>
+            <div class="pressed-flower">✿</div>
+            <p class="cover-footer">MADE WITH LOVE • JUST FOR YOU</p>
+          </div>
+        </article>
+
+        <article class="page" data-page="1">
+          <div class="page-number">02</div>
+          <p class="handwritten">Dear best friend,</p>
+          <h2>It all started<br>with a hello...</h2>
+          <div class="torn-paper">
+            <p>
+              I never knew that one ordinary day could bring
+              someone so special into my life.
+              Somehow, the simplest moments became my
+              favourite memories.
+            </p>
+          </div>
+          <p class="small-note">— A little note from my heart</p>
+          <div class="stamp">FRIENDS<br>FOREVER</div>
+        </article>
+
+        <article class="page" data-page="2">
+          <div class="page-number">03</div>
+          <h2 class="page-heading">The little moments</h2>
+          <p class="page-subtitle">The ones I never want to forget.</p>
+
+          <div class="polaroid-grid">
+            <figure class="polaroid tilted-left">
+              <img src="images/memory1.jpg" alt="Memory one">
+              <figcaption>That lovely day</figcaption>
+            </figure>
+            <figure class="polaroid tilted-right">
+              <img src="images/memory2.jpg" alt="Memory two">
+              <figcaption>Our silly smiles</figcaption>
+            </figure>
+          </div>
+          <p class="small-note">Every picture has a story.</p>
+        </article>
+
+        <article class="page" data-page="3">
+          <div class="page-number">04</div>
+          <h2 class="page-heading">More memories...</h2>
+          <div class="polaroid-grid">
+            <figure class="polaroid tilted-right">
+              <img src="images/memory3.jpg" alt="Memory three">
+              <figcaption>Little adventures</figcaption>
+            </figure>
+            <figure class="polaroid tilted-left">
+              <img src="images/memory4.jpg" alt="Memory four">
+              <figcaption>Always us</figcaption>
+            </figure>
+          </div>
+          <div class="ticket">ADMIT ONE<br>TO FOREVER</div>
+        </article>
+
+        <article class="page" data-page="4">
+          <div class="page-number">05</div>
+          <p class="handwritten">A tiny reminder...</p>
+          <h2>Some bonds<br>never fade.</h2>
+          <div class="quote-box">
+            "Distance, time and change may happen,
+            but some friendships stay close to the heart."
+          </div>
+          <div class="pressed-flower flower-two">✿</div>
+          <p class="small-note">Keep this page close.</p>
+        </article>
+
+        <article class="page" data-page="5">
+          <div class="page-number">06</div>
+          <h2 class="page-heading">A letter for you</h2>
+          <div class="envelope-area">
+            <div class="envelope" id="envelope">
+              <div class="envelope-back"></div>
+              <div class="letter">
+                <p>My favourite human,</p>
+                <p>
+                  Thank you for being part of my story.
+                  I hope we keep making memories, laughing
+                  at silly things and supporting each other.
+                </p>
+                <p>With love, your best friend.</p>
+              </div>
+              <div class="envelope-front"></div>
+              <div class="envelope-flap"></div>
+              <div class="wax-seal">✦</div>
+            </div>
+            <button class="reveal-btn" id="letterBtn">
+              OPEN YOUR LETTER
+            </button>
+          </div>
+          <p class="small-note">A little something, just for you.</p>
+        </article>
+
+        <article class="page" data-page="6">
+          <div class="page-number">07</div>
+          <div class="ending">
+            <div class="ending-symbol">❧</div>
+            <p class="eyebrow">THE END OF THIS BOOK</p>
+            <h2>But never<br><em>our story.</em></h2>
+            <p>
+              Here's to all the memories we've made
+              and all the ones still waiting for us.
+            </p>
+            <div class="cover-line"></div>
+            <p class="cover-footer">OUR FRIENDSHIP • ALWAYS</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="book-controls">
+        <button id="prevBtn" class="nav-btn" disabled>← PREVIOUS</button>
+        <span id="pageIndicator">COVER — 01 / 07</span>
+        <button id="nextBtn" class="nav-btn">NEXT →</button>
+      </div>
+      <p class="tip">Turn the pages to explore our memories.</p>
+    </section>
+
+    <section class="closing-note">
+      <p class="eyebrow">FILED UNDER: FOREVER FRIENDS</p>
+      <h2>Some memories deserve<br><em>their own little book.</em></h2>
+      <p>Thank you for being one of mine.</p>
+    </section>
+  </main>
+
+  <footer>
+    THE MEMORY ARCHIVE · A STORY MADE OF FRIENDSHIP
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
